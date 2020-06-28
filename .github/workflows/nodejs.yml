@@ -26,10 +26,4 @@ jobs:
         CI: true
 
 
-    - name: trigger multiple Job
-    uses: appleboy/jenkins-action@master
-    with:
-    url: "http://192.168.219.128:8080/"
-    user: "blaz"
-    token: ${{ secrets.1118aef1db59d87383ed196f250067db15 }}
-    job: "job_1,job_2"
+
